@@ -1,0 +1,49 @@
+Jag har valt att jobba med ett bibliotekssystem som man kan låna böcker, ljudböcker eller film!
+
+Systemet inkluderar klasser för, Biblioteket, Låna och återlämna, och använder arv abstrakt klass, Media(audiobook, film, book)för att strukturera funktionaliteten.
+
+Vid tidigare inlämning av projektvalet fick jag godkänd.
+
+Men jag har gjort en del förändringar och kanske kommer göra mer förändringar ifall jag behöver skapa fler klasser.
+
+Hittills har jag  skapat mina klasser och tilldelat de ansvar och försökt ge varje klass endast en tydlig uppgift för att underlätta arbetet. Alla mina klasser är ej färdiga just nu och det finns en del att göra. Just nu jobbar jag med de olika metod och dess funktionalitet i varje klass och eventuella förbättringar för biblioteket.
+
+
+Mina relevanta klasser:
+
+Library, Borrow, Return, Person, Loan, MediaHandler, <<Media>>, Film, Audiobook, Book, Inputhandler, Filehandler.
+
+Förnärvarande finns två Use Case för biblioteksystemet som är ganska lik varandra men utför olika jobb, dvs låna eller återlämna.
+
+Systemet interagerar med klassen Libraray som i sin tur interagerar med antingen Borrow klassen eller Return klassen beroende på relevant Use Case!
+
+systemet frågar användaren om två alternativ, låna eller återlämna. Om användaren vill låna så kommer Borrow klassen få uppgift att skapa ett lån-objekt med hjälp av klasserna Person, Mediahandler och Loan.
+
+Och om användaren vill återlämna får klassen Return uppgift att utföra återlämningen med hjälp av klsserna Person,Loan, o.ch Mediahandler
+
+När interaktionen är klart registreras all information i de olika textfilerna.
+
+En person kan samtidigt låna max tre olika media!
+
+ 
+
+
+kort beskrivning av klasser:
+
+Library{} interagerar med två klasser, Borrow och Return. Beroende på  användaren input (låna/återlämna)tilldelar ansvaret till den klass som har den relevanta uppgiften.
+
+Borrow{} skapar lånobjekt
+
+Return{} interagerar med klasserna, Person, Loan och Mediahandler för att utföra återlämning.
+
+Person{} klassen Innehåller information om personuppgifter.
+
+Loan{} sparar alla lånobjekt med loanID
+
+MediaHandler{} Hanterar tillägg och borttagning av media vid varje lån
+
+ Media{}är bassklassen och  Film{}, Audiobook{}, Book{} är subklasserna som har information om respektive media.
+
+ Inputhandler{} hanterar input från användaren
+
+Filehandler{} skriver till filen för att spara data(lån, media, personuppgifter) och gör eventuella ändringar i texten.
