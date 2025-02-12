@@ -1,0 +1,87 @@
+@startuml klassdiagram Library
+class System {
+    + main()
+}
+
+class Library {
+    + borrow()
+    + return()
+}
+
+class Borrow {
+    + createLoan()
+}
+
+class Return {
+    + processReturn()
+}
+
+class Person {
+    - personID
+    - name
+    + getInfo()
+}
+
+class Loan {
+    - loanID
+    - person
+    - media
+    - date
+    + saveLoan()
+    + removeLoan()
+}
+
+class MediaHandler {
+    +addMedia(media: Media)
+    +removeMedia(media: Media)
+}
+
+abstract class Media {
+    + title
+    + author_editor
+    + getInfo()
+}
+
+class Film {
+    - director
+    - year
+    + display()
+}
+
+class Audiobook {
+    - author
+    - year
+    + display()
+}
+
+class Book {
+    - author
+    - year
+    + display()
+}
+
+class InputHandler {
+    + getUserInput()
+}
+
+class FileHandler {
+    + saveData()
+    + updateData()
+}
+Library --> InputHandler
+System -- Library
+Library --> Borrow
+Library --> Return
+Return -- Person
+Borrow -- MediaHandler
+Borrow --> Loan
+Borrow -- Person
+
+Return -- MediaHandler
+MediaHandler -- Media
+Return --> Loan
+Media <|-- Film
+Media <|-- Audiobook
+Media <|-- Book
+
+@enduml
