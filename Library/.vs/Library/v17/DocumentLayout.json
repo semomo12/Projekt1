@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mosta\\Downloads\\currentcourses\\CPP\\Library\\",
+  "WorkspaceRootPath": "C:\\Users\\mosta\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\projekt\\Library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4634D18-2657-4566-8CBF-A09A803358DB}|Library.vcxproj|C:\\Users\\mosta\\Downloads\\currentcourses\\CPP\\Library\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{D4634D18-2657-4566-8CBF-A09A803358DB}|Library.vcxproj|C:\\Users\\mosta\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\projekt\\Library\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D4634D18-2657-4566-8CBF-A09A803358DB}|Library.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\mosta\\Downloads\\currentcourses\\CPP\\Library\\Main.cpp",
+              "DocumentMoniker": "C:\\Users\\mosta\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\projekt\\Library\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "C:\\Users\\mosta\\Downloads\\currentcourses\\CPP\\Library\\Main.cpp",
+              "ToolTip": "C:\\Users\\mosta\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\projekt\\Library\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-14T16:31:07.394Z",
               "EditorCaption": ""
