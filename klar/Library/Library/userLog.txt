@@ -1,0 +1,7 @@
+personID, Name, PhoneNumber
+8718,mostaf,98776
+6522,frrfr,4345
+8593,frfercfer,45545445
+8487,ededed,444
+7527,edffre,70896533
+6144,tttftfftf,656576565688

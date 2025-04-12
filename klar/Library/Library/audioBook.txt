@@ -1,0 +1,11 @@
+ID, Name, Narrator, Year
+1, "Harry Potter and the Sorcerer's Stone", "J.K. Rowling", 1997
+2, "The Hobbit", "J.R.R. Tolkien", 1937
+3, "The Catcher in the Rye", "J.D. Salinger", 1951
+4, "The Da Vinci Code", "Dan Brown", 2003
+5, "The Alchemist", "Paulo Coelho", 1988
+6, "The Girl with the Dragon Tattoo", "Stieg Larsson", 2005
+7, "Becoming", "Michelle Obama", 2018
+8, "Can't Hurt Me", "David Goggins", 2018
+9, "Born a Crime", "Trevor Noah", 2016
+10, "Atomic Habits", "James Clear", 1997
